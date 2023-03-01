@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+aside {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background-color: #607D8B;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: row;
+  margin: 16px;
+}
+
+.user-info__avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 75px;
+}
+
+.user-info__text {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.user-info__text_title {
+  color: #263238;
+  font-family: Arial;
+}
+
+.user-info__text_subtitle {
+  color: #C8E6C9;
+  font-family: Arial;
+}
+
+nav {
+  margin-top: 100px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin: 5px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  color: #263238;
+  font-family: Arial;
+}
+
+nav ul li a:hover {
+  background-color: #455A64;
+  color: #CFD8DC;
+}
